@@ -53,9 +53,23 @@
 //     lst[i].style.fontWeight = 'bold';
 // }
 
-var tag = document.getElementsByTagName('li');
-console.log(tag);
+// var tag = document.getElementsByTagName('li');
+// console.log(tag);
 
-for(var i =0; i< tag.length; i++){
-    tag[i].style.fontWeight = 'bold';
+// for(var i =0; i< tag.length; i++){
+//     tag[i].style.fontWeight = 'bold';
+// }
+
+
+// query selector
+var q1 = document.querySelector('#item2');
+q1.style.backgroundColor = 'green';
+var q2 = document.querySelector('#item3');
+q2.style.display = 'none';
+
+// QuerSelectorAll
+var q = document.querySelectorAll('li');
+q[1].style.backgroundColor = 'green';
+for(var i = 0; i<q.length; i+=2){
+    q[i].style.backgroundColor = 'green';
 }
