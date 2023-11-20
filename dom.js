@@ -41,14 +41,21 @@
 // var header = document.getElementById('main-header');
 // header.style.borderBottom = 'solid 3px black';
 
-var t = document.getElementsByClassName('title');
-console.log(t);
-t[0].style.fontWeight = 'bold';
-// t[0].style.backgroundColor = 'yellow';
-t[0].style.color = 'green';
+// var t = document.getElementsByClassName('title');
+// console.log(t);
+// t[0].style.fontWeight = 'bold';
+// // t[0].style.backgroundColor = 'yellow';
+// t[0].style.color = 'green';
 
-var lst = document.getElementsByClassName("list-group-item");
+// var lst = document.getElementsByClassName("list-group-item");
 
-for(var i =0; i< lst.length; i++){
-    lst[i].style.fontWeight = 'bold';
+// for(var i =0; i< lst.length; i++){
+//     lst[i].style.fontWeight = 'bold';
+// }
+
+var tag = document.getElementsByTagName('li');
+console.log(tag);
+
+for(var i =0; i< tag.length; i++){
+    tag[i].style.fontWeight = 'bold';
 }
