@@ -62,9 +62,9 @@
 
 
 // query selector
-var q1 = document.querySelector('#item2');
+var q1= document.querySelector('.list-group-item:nth-child(2)');
 q1.style.backgroundColor = 'green';
-var q2 = document.querySelector('#item3');
+var q2= document.querySelector('.list-group-item:nth-child(3)');
 q2.style.display = 'none';
 
 // QuerSelectorAll
