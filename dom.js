@@ -46,3 +46,9 @@ console.log(t);
 t[0].style.fontWeight = 'bold';
 // t[0].style.backgroundColor = 'yellow';
 t[0].style.color = 'green';
+
+var lst = document.getElementsByClassName("list-group-item");
+
+for(var i =0; i< lst.length; i++){
+    lst[i].style.fontWeight = 'bold';
+}
